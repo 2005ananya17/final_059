@@ -6,7 +6,9 @@ export default function Home() {
     <div className="home-page">
       {/* HERO SECTION */}
       <section className="hero">
-        <h1>Welcome to <span>CampusVerse</span></h1>
+        <h1>
+          Welcome to <span>CampusVerse</span>
+        </h1>
         <p>
           A digital ecosystem for students, parents, alumni, and educators —
           explore, connect, and grow together.
@@ -16,8 +18,8 @@ export default function Home() {
           <Link to="/360" className="primary-btn">
             🌐 Explore Campus
           </Link>
-          <Link to="/talknest" className="secondary-btn">
-            💬 Join TalkNest
+          <Link to="/campusbot" className="secondary-btn">
+            🤖 CampusBot
           </Link>
         </div>
       </section>
